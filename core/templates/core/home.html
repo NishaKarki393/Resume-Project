@@ -1,0 +1,37 @@
+{% extends "core/base.html" %} {% load static %} {% block content %}
+<div>
+  <div class="text-center mt-5">
+    <img src="{% static "core/images/pic1.jpg" %}" alt="Profit pic"
+    class='img-thumbnail' width='250px' height='150px'>
+  </div>
+  <div class="text-white mt-5 mx-5 text-justify">
+    <h1 class="font-weight-bold st-font">Hello,</h1>
+    <div class="px-4" style="line: height :2rem;">
+      <p style="text-indent: 100px">
+        I am <b class="text-warning"> Nisha Karki</b> having 5 years of
+        full-stack web development experience for global businesses, I offer the
+        technical expertise you are seeking fo your web developer position.
+      </p>
+      <p>
+        Since earning my becholor's degree in internet and web development from
+        XYZ University, I have served as a web developer at
+        <b class="text-warning">GS Technology</b>, one of biggest premier
+        digital marketing and web development firm. In this position, I have led
+        web development projects for clients in diverse industries including
+        technology, manufacturing, pharmaceutical, hospitality, retail and
+        financial Services.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+        ratione provident quidem deleniti debitis ea sed incidunt consectetur
+        reiciendis cum a accusamus repudiandae tenetur blanditiis, cupiditate
+        vel voluptatem laudantium rerum.
+      </p>
+    </div>
+    <div class="text-center">
+      <a href="{% url "contact" %}" class="btn btn-outline-warning my-5 mr-5">Hire me </a>
+      <a href="{% url "contact" %}" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+  </div>
+</div>
+{% endblock content %}
