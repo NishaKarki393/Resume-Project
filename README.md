@@ -3,7 +3,7 @@
 A dynamic resume builder web application built with **Django**. This project allows users to manage their personal details, skills, education, and experience — and automatically generate a clean, professional resume layout.
 
 ## 🚀 Live Preview
-https://itsnishakarki.pythonanywhere.com/serv/services/
+https://itsnishakarki.pythonanywhere.com/
 ---
 
 ## 📌 Key Features
