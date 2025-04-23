@@ -4,7 +4,7 @@ A dynamic resume builder web application built with **Django**. This project all
 
 ## 🚀 Live Preview
 https://itsnishakarki.pythonanywhere.com/
----
+
 
 ## 📌 Key Features
 
@@ -14,7 +14,6 @@ https://itsnishakarki.pythonanywhere.com/
 - 🔐 Secure backend using Django’s built-in auth system
 - 💾 Powered by SQLite (development) – easy to switch to PostgreSQL/MySQL
 
----
 
 ## 🛠️ Tech Stack
 
